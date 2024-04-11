@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ #menu-superior li{
+    display: inline;
+   
+ }
+ #menu-superior li a,h1 a{
+   text-decoration: none;
+ }
+ 
+ #menu-superior {
+   padding-right: 40px;
+ }
+ header h1{
+   padding-left: 40px;
+ }
+
+ header{
+   background: url("../img/bo-about-banner.jpg") ;
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 540px;
+   background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+   
+ }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form-container {
+    margin-top: 50px;
+  }
+  
+  .form-container h1 {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="tel"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+footer{
+   display: inline;
+   padding: 30%;
+   text-align: center;
+   padding: 90px;
+   
+}
+  #menu-inferior li a,h1 a{
+    text-decoration: none;
+    padding: 20px;
+  }
+  #menu-inferior li{
+    display: inline;
+ }
+ footer h2{
+    padding: 5%;
+ 
+ }
+ .tamano-parrafo{
+     font-size: 17px;
+     padding: 10px;
+     line-height: 28.9px;
+ }
+ .botton-touch
+ {
+     background-color: green;
+     color: white;
+     padding: 5px;
+     width: 15%;
+     margin: 0 auto;
+ 
+ }
+ .botton-touch:hover{
+     background-color: rgb(4, 40, 4);
+ }
+ .link-top{
+     color: white;
+     text-decoration: none;
+     font-weight: 600;
+ }
