@@ -16,7 +16,12 @@
  header h1{
    padding-left: 40px;
  }
-
+ header h2{
+   align-items: center;
+   color:teal;
+   font-size: 3em;
+   display: flex;
+ }
  header{
    background: url("../img/bo-about-banner.jpg") ;
    background-repeat: no-repeat;
