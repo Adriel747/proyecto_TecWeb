@@ -138,6 +138,24 @@ footer h2{
     text-decoration: none;
     font-weight: 600;
 }
+/* Media query para pantallas de hasta 768px */
+@media screen and (max-width: 768px) {
+   #parrafo-img {
+       flex-direction: column-reverse;
+   }
+   
+   #parrafo-img img {
+       width: 100%;
+       margin-left: 0;
+       margin-bottom: 20px;
+   }
+   #parraf {
+       padding: 0;
+   }
+  
+
+}
+
 /* Estilos del botón de toggle */
 .toggle-menu-btn {
    display: none;
