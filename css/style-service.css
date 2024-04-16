@@ -29,6 +29,7 @@
 #headerTitle h2 {
    font-size: 80px; 
    text-align: center;  
+   padding-left:50px ;
 }
 
 #headerTitle .botton-touch {
@@ -65,8 +66,8 @@ section {
 
 }
 img {
-    max-width: 100%; 
-    height:auto;
+    max-width: 200px; 
+    height:220px;
     padding-inline: 0 20px;
     
    }
@@ -75,7 +76,8 @@ img {
    display: flex; 
    justify-content:space-between;
    flex-direction: row;
-   padding: 60px 0 ;
+   padding: 30px 0 ;
+   margin: 0 150px;
   }
   #parrafo-img img{
      width: 50%;
