@@ -156,3 +156,39 @@ footer{
      text-decoration: none;
      font-weight: 600;
  }
+ /* Estilos del botón de toggle */
+.toggle-menu-btn {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Estilos del menú */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  /* Mostrar el botón de toggle solo en pantallas pequeñas */
+  .toggle-menu-btn {
+      display: block;
+  }
+
+  /* Ocultar el menú por defecto en pantallas pequeñas */
+  nav ul {
+      display: none;
+  }
+
+  /* Mostrar el menú cuando el checkbox está marcado */
+  #toggle-menu:checked ~ nav ul {
+      display: block;
+  }
+  
+  
+}
